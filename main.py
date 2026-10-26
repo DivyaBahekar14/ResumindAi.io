@@ -6,7 +6,7 @@ from utils.text_cleaner import clean_text
 from services.llm_parser import parse_resume_with_llm
 
 app = FastAPI() 
-
+ 
 @app.post("/upload")
 async def upload_file(file: UploadFile = File(...)):
     
