@@ -30,3 +30,8 @@ async def upload_file(file: UploadFile = File(...)):
 
     except ValueError as e:
         raise HTTPException(status_code=500, detail=str(e))
+
+
+
+
+
