@@ -16,6 +16,3 @@ def extract_text_from_pdf(content: bytes):
     except Exception:
         raise ValueError("Error extracting text from PDF")
 
-
-
-
