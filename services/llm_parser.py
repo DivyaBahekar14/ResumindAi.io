@@ -28,3 +28,6 @@ def parse_resume_with_llm(cleaned_text: str):
     )
 
     return response.choices[0].message.content
+
+
+
